@@ -9,6 +9,14 @@ export const name = 'uptimerobot';
 export const help = '';
 export const manual = '';
 
+export const namedOptions = [
+  {
+    name: 'format',
+    required: false,
+    help: 'The format to output the statuses in. Supports bitbar, default',
+  },
+];
+
 const emojiStatus = {
   paused: '🙈',
   'not-checked-yet': '⏱',
