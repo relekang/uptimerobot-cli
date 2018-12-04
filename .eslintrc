@@ -1,0 +1,10 @@
+---
+extends:
+  - relekang
+  - relekang/configs/typescript
+  - relekang/configs/jest
+env:
+  node: true
+parser: typescript-eslint-parser
+rules:
+  no-console: 0

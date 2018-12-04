@@ -1,0 +1,41 @@
+{
+  "name": "@relekang/uptimerobot-cli",
+  "version": "1.0.0-beta.0",
+  "description": "A cli for uptimerobot",
+  "main": "lib/index.js",
+  "repository": "git@github.com:relekang/uptimerobot-cli.git",
+  "author": "Rolf Erik Lekang <me@rolflekang.com>",
+  "license": "MIT",
+  "bin": {
+    "uptimerobot": "./bin.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@relekang/args": "^1.2.0",
+    "bitbar": "^0.4.0",
+    "conf": "^2.1.0",
+    "console.table": "^0.10.0",
+    "inquirer": "^6.2.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/conf": "^1.4.0",
+    "@types/inquirer": "^0.0.43",
+    "@types/mri": "^1.1.0",
+    "@types/node": "^10.12.12",
+    "@types/request-promise-native": "^1.0.15",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-relekang": "^1.1.0",
+    "eslint-plugin-eslint-comments": "^3.0.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-typescript": "^0.13.0",
+    "prettier": "^1.15.2",
+    "source-map-support": "^0.5.9",
+    "typescript": "^3.2.1",
+    "typescript-eslint-parser": "^21.0.1"
+  }
+}
