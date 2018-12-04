@@ -13,7 +13,8 @@
     "release": "standard-version -i changelog.md"
   },
   "files": [
-    "lib"
+    "lib",
+    "bin.js"
   ],
   "dependencies": {
     "@relekang/args": "^1.2.0",
