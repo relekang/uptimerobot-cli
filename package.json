@@ -10,10 +10,11 @@
     "uptimerobot": "./bin.js"
   },
   "scripts": {
+    "prepublishOnly": "tsc",
     "release": "standard-version -i changelog.md"
   },
   "files": [
-    "lib",
+    "lib/",
     "bin.js"
   ],
   "dependencies": {
