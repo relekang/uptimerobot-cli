@@ -31,6 +31,7 @@ function formatter(data: Monitor[], format: string) {
         bitbar.separator,
         ...data.map(monitor => ({
           text: `${emojiStatus[monitor.status]} - ${monitor.name}`,
+          href: `https://uptimerobot.com/dashboard#${monitor.id}`,
         })),
         bitbar.separator,
         { text: 'Refresh', refresh: true },
