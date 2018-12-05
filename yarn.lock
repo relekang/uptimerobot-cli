@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@relekang/args@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@relekang/args/-/args-1.2.0.tgz#dd22454ff00040cae8c2969f6b97862078f80f72"
-  integrity sha512-p0vighmobjxFcSxyoUQznTa6WR1EaFYD2F6OpPgnPNEKpKZKISQP4G6organg7lAy8xS4WDDULM7/lD8o2orWQ==
+"@relekang/args@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@relekang/args/-/args-1.2.2.tgz#6e157187ece77199b40c7a80a4cd57567bb17287"
+  integrity sha512-QpkkeBnTgkZcukoGTxMoBYL6Be84dpY3H9dT6hZj4tbvHV0yZfKXFDY6n8jbl323iFRj6sov1vBl4s7bOKgcQg==
   dependencies:
     chalk "^2.4.1"
     extendable-error "^0.1.5"

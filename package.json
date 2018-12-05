@@ -18,7 +18,7 @@
     "bin.js"
   ],
   "dependencies": {
-    "@relekang/args": "^1.2.0",
+    "@relekang/args": "^1.2.2",
     "bitbar": "^0.4.0",
     "conf": "^2.1.0",
     "console.table": "^0.10.0",
