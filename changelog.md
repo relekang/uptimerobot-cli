@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/relekang/uptimerobot-cli/compare/v1.0.0...v1.1.0) (2018-12-05)
+
+
+### Bug Fixes
+
+* Upgrade args for better help screens ([29db09b](https://github.com/relekang/uptimerobot-cli/commit/29db09b))
+
+
+### Features
+
+* Set exit code based on monitor statuses ([eb0b0d2](https://github.com/relekang/uptimerobot-cli/commit/eb0b0d2))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/relekang/uptimerobot-cli/compare/v1.0.0-beta.5...v1.0.0) (2018-12-04)
 
