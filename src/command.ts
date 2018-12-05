@@ -53,6 +53,16 @@ function formatter(data: Monitor[], format: string) {
   }
 }
 
+function exitCode(data: Monitor[]) {
+  if (data.find(({ status }) => status === 'down')) {
+    return 1;
+  }
+  if (data.find(({ status }) => status === 'seems-down')) {
+    return 2;
+  }
+  return 0;
+}
+
 type Options = {
   format: string;
 };
@@ -72,6 +82,7 @@ export async function run(options: Options) {
   try {
     const data = await getMonitors(apiKey);
     formatter(data, options.format);
+    process.exit(exitCode(data));
   } catch (error) {
     if (error.options && error.options.response) {
       const { status, statusMessage } = error.options.response;
