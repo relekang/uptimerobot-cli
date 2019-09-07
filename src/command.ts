@@ -20,7 +20,7 @@ export const namedOptions = [
 const emojiStatus = {
   paused: '🙈',
   'not-checked-yet': '⏱',
-  up: '👌',
+  up: '✅',
   'seems-down': '🤔',
   down: '🔥',
 };
