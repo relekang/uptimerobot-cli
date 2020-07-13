@@ -40,7 +40,7 @@
     "eslint-plugin-typescript": "^0.13.0",
     "prettier": "^1.15.2",
     "source-map-support": "^0.5.9",
-    "standard-version": "^4.4.0",
+    "standard-version": "^8.0.1",
     "typescript": "^3.2.1",
     "typescript-eslint-parser": "^21.0.1"
   }
